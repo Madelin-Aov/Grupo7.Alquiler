@@ -1,2 +1,5 @@
 com\mvc\alquileres\AlquileresApplication.class
+com\mvc\alquileres\repositories\IPropietarioRepository.class
 com\mvc\alquileres\controllers\HomeController.class
+com\mvc\alquileres\entities\Propietario.class
+com\mvc\alquileres\services\PropietarioService.class

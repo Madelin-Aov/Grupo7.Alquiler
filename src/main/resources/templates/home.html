@@ -10,6 +10,23 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <p th:text="${datos}"></p>
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>nombre</th>
+                    <th>apellido</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="propietario : ${propietariosList}">
+                    <td th:text="${propietario.getNombre()}">Nombre</td>
+                    <td th:text="${propietario.getApellido()}">Apellido</td>
+                </tr>
+
+            </tbody>
+        </table>
+
     </body>
 </html>
