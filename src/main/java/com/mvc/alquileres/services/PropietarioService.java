@@ -23,10 +23,26 @@ public class PropietarioService {
     public List<Propietario> getAll(){
         return propietarioRepository.findAll();
     }
+   public void crear (Propietario prop){
+   propietarioRepository.save(prop);
+   
+   }
+   
+   public void eliminar(int id){
+   propietarioRepository.deleteById(id);
+   }
+   
+   public void editar (Propietario prop){
+   propietarioRepository.save(prop);
+   }
     
-    public Propietario save(String nombre)throws Exception{
-        Propietario propietario = new Propietario();
-        propietario.setNombre(nombre);
-        return propietarioRepository.save(propietario);
-    }
+   public Propietario getById(int Id){
+      
+       return  propietarioRepository.findById(Id).get();
+   }
+   
+   public List<Propietario> getByname(String nombre){
+   
+       return propietarioRepository.findAllByNombre(nombre);
+   }
 }

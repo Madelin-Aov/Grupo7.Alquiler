@@ -5,12 +5,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Busqueda</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>    
-       
+    <body>
+        <div>Nombre: </div>
+        <span th:each="prop : ${propietarios}"> 
+        <p th:text="${prop.getNombre}"></p>
+        </span>
 
+            
     </body>
 </html>

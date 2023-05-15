@@ -1,5 +1,9 @@
-com\mvc\alquileres\AlquileresApplication.class
-com\mvc\alquileres\repositories\IPropietarioRepository.class
-com\mvc\alquileres\controllers\HomeController.class
 com\mvc\alquileres\entities\Propietario.class
 com\mvc\alquileres\services\PropietarioService.class
+com\mvc\alquileres\AlquileresApplication.class
+com\mvc\alquileres\repositories\IPropietarioRepository.class
+com\mvc\alquileres\services\AvisoAlquilerService.class
+com\mvc\alquileres\controllers\PropietarioController.class
+com\mvc\alquileres\controllers\AvisoAlquilerController.class
+com\mvc\alquileres\entities\AvisoAlquiler.class
+com\mvc\alquileres\repositories\IAvisoAlquilerRepository.class
