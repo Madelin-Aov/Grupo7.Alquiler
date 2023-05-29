@@ -1,9 +1,11 @@
 C:\Repos\alquileres\src\main\java\com\mvc\alquileres\entities\AvisoAlquiler.java
 C:\Repos\alquileres\src\main\java\com\mvc\alquileres\services\PropietarioService.java
 C:\Repos\alquileres\src\main\java\com\mvc\alquileres\repositories\IPropietarioRepository.java
+C:\Repos\alquileres\src\main\java\com\mvc\alquileres\entities\Cliente.java
 C:\Repos\alquileres\src\main\java\com\mvc\alquileres\AlquileresApplication.java
 C:\Repos\alquileres\src\main\java\com\mvc\alquileres\repositories\IAvisoAlquilerRepository.java
 C:\Repos\alquileres\src\main\java\com\mvc\alquileres\controllers\AvisoAlquilerController.java
 C:\Repos\alquileres\src\main\java\com\mvc\alquileres\controllers\PropietarioController.java
 C:\Repos\alquileres\src\main\java\com\mvc\alquileres\services\AvisoAlquilerService.java
 C:\Repos\alquileres\src\main\java\com\mvc\alquileres\entities\Propietario.java
+C:\Repos\alquileres\src\main\java\com\mvc\alquileres\repositories\IClienteRepository.java

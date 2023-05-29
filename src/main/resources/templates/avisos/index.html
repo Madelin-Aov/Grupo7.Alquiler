@@ -18,11 +18,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 
                     <div class="col" th:each="aviso : ${avisos}" >
                         <div class="card" style="width: 18rem; margin: 20px ">
-                            <div height: 200px >
-                                <img height: 200px th:src="${aviso.getImagen()}" class="card-img-top" alt="">
+                            <div height="200px"  >
+                                <img  th:src="${aviso.getImagen()}" class="card-img-top" alt="">
                             </div>
                             <div class="card-body">
-                                <h5 th:text="${aviso.ge()}" class="card-title" ></h5>
+                                <h5 th:text="${aviso.getNombre()}" class="card-title" ></h5>
                                 <p  th:text="${aviso.getDescripcion()}" class="card-text"></p>
                                 <p th:text="${aviso.getStatus()}"></p>
                                 <a href="#" class="btn btn-primary">Ver Aviso</a>
